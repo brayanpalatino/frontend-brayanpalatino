@@ -1,0 +1,98 @@
+body {
+    background-image: url("Assets/pexels-felixmittermeier-956999.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:2;
+}
+
+.id-card{
+    width: 350px;
+    background-color: #70707099;
+    font-style: normal;
+    font-family: sans-serif;
+    margin: auto;
+    margin-top: 10% ;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    border:2px solid white;
+}
+.id-card:hover {
+    border-color: rgb(111, 0, 255);
+}
+
+.crescendo-logo{
+    width: 200px;
+    border-radius: 10%;
+}
+
+.image{
+    width: 200px;
+    border-radius: 10%;
+    margin-top: 30px;
+}
+.icon-container{
+
+}
+.Facebook{
+    width: 40px;
+    height: 40px;
+}
+.Email{
+    width: 40px;
+    height: 40px;
+}
+.Number{
+    width: 40px;
+    height: 40px;
+}
+@media (max-width: 768px) {
+    body {
+        background-image: url("Assets/pexels-felixmittermeier-956999.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 100px;
+        padding-bottom: 400px;
+        opacity:2;
+    }
+    .id-card {
+        max-width: 90%;
+        margin-top: 5%; 
+        padding-bottom: 30px; /
+    }
+
+    .crescendo-logo {
+        width: 150px; 
+    }
+
+    .image {
+        width: 250px; 
+        margin-top: 20px; 
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: url("Assets/pexels-felixmittermeier-956999.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 100px;
+        padding-bottom: 200px;
+        opacity:2;
+    }
+    .id-card {
+        margin-top: 3%; 
+        padding-bottom: 20px; 
+    }
+
+    .crescendo-logo {
+        width: 120px; 
+    }
+
+    .image {
+        width: 250px; 
+        margin-top: 10px; 
+    }
+}
